@@ -1,82 +1,66 @@
-# BlinkIT Sales Predictor
+Blinkit Sales Prediction: Big Data-Driven Demand Forecasting
+A Big Data & Machine Learning-based project built to forecast grocery item sales for Blinkit, enabling smarter inventory decisions, better marketing, and reduced wastage.
 
-A web application that predicts future sales for BlinkIT grocery items based on various features using machine learning.
+Project Overview
+This project demonstrates how Big Data and Machine Learning can be integrated to solve real-world problems in the retail sector. Our solution predicts sales for a given product-outlet combination using historical sales data and advanced analytics techniques. It features a full-stack implementation including data ingestion, distributed processing, predictive modeling, and a responsive web interface.
 
-## Features
+Features
+Cleaned and structured grocery sales dataset
+Trained predictive models using XGBoost, CatBoost, and GridSearchCV
+Big Data pipeline with MongoDB and PySpark
+Flask-based web application for real-time predictions
+Sales dashboards using matplotlib, seaborn, and Power BI
+User-friendly and responsive frontend
 
-- User-friendly web interface
-- Real-time sales predictions
-- Support for various item types and outlet characteristics
-- Responsive design that works on all devices
-- Machine learning model trained on historical sales data
+Tech Stack
+Data Engineering & Storage
+MongoDB (NoSQL)
+pandas, numpy for data preprocessing
+PySpark for distributed processing
+Machine Learning
+XGBoost, CatBoost, scikit-learn
+GridSearchCV for hyperparameter tuning
+joblib for model serialization
+Web Development
+Flask for backend API
+HTML, CSS for frontend
+Visualization
+matplotlib, seaborn, Power BI
 
-## Prerequisites
+👥 Team Members & Contributions
+Name	Role & Contributions
+Udit Vedwal	Machine Learning, Model Training & Web Integration
+Akshay Khugshal	Data Cleaning, Preprocessing, Database Management, EDA
+Vanshika Bhandari	Frontend (HTML/CSS), Power BI Visualization
 
-- Python 3.7 or higher
-- pip (Python package manager)
-- MongoDB (for data storage)
+✅ Testing & Validation
+Component	Status	Notes
+Model Evaluation	✅ Pass	High accuracy & R² score
+Model Persistence	✅ Pass	Serialized using joblib
+Web App Functionality	✅ Pass	All routes tested
+Prediction Endpoint	✅ Pass	Returns valid results
 
-## Installation
+📈 Results & Insights
+Accurate prediction of product-level sales
+Real-time inference via a web interface
+Visual sales trends, top items, outlet segmentation
 
-1. Clone this repository:
-```bash
-git clone <repository-url>
-cd blinkit-sales-predictor
-```
+📥 How to Run Locally
+Clone the repository
+git clone https://github.com/uditvedwal-01/Blinkit_Sales_Analysis.git
 
-2. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install the required packages:
-```bash
+Install dependencies
 pip install -r requirements.txt
-```
 
-4. Make sure MongoDB is running on your system
-
-## Running the Application
-
-1. Start the Flask application:
-```bash
+Run the Flask app
 python app.py
-```
 
-2. Open your web browser and navigate to:
-```
-http://localhost:5000
-```
+Open your browser at
+http://127.0.0.1:5000/
 
-## Usage
+🔗 Live Demo & GitHub Link
+GitHub: Blinkit_Sales_Analysis
 
-1. Fill in the form with the following information:
-   - Item Weight
-   - Item Visibility
-   - Item Fat Content
-   - Item Type
-   - Outlet Size
-   - Outlet Location Type
-   - Outlet Type
-   - Outlet Establishment Year
+📄 License
+This project is for educational and demonstration purposes only.
 
-2. Click the "Predict Sales" button to get the sales prediction
-
-3. The predicted sales value will be displayed in Indian Rupees (₹)
-
-## Data Description
-
-The model uses the following features for prediction:
-- Item Weight: Weight of the product
-- Item Visibility: The percentage of total display area of all products in store allocated to this particular product
-- Item Fat Content: Whether the product is low fat or regular
-- Item Type: The category to which the product belongs
-- Outlet Size: The size of the store
-- Outlet Location Type: The type of area where the store is located
-- Outlet Type: Whether the outlet is a grocery store or supermarket
-- Outlet Establishment Year: The year in which the store was established
-
-## Contributing
-
-Feel free to submit issues and enhancement requests! 
