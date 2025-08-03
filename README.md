@@ -95,7 +95,3 @@ http://127.0.0.1:5000/
 GitHub: Blinkit_Sales_Analysis
 <br>
 <br>
-📄 License
-<br>
-This project is for educational and demonstration purposes only.
-
