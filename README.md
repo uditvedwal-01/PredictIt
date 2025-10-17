@@ -1,4 +1,5 @@
 PredictIt
+<br>
 Blinkit Sales Prediction: Big Data-Driven Demand Forecasting
 <br>
 A Big Data & Machine Learning-based project built to forecast grocery item sales for Blinkit, enabling smarter inventory decisions, better marketing, and reduced wastage.
@@ -96,4 +97,5 @@ http://127.0.0.1:5000/
 GitHub: Blinkit_Sales_Analysis
 <br>
 <br>
+
 
