@@ -1,6 +1,6 @@
 # PredictIt
 <br>
-##  A Big Data & Machine Learning-based project built to forecast grocery item sales for Blinkit, enabling smarter inventory decisions, better marketing, and reduced wastage.
+A Big Data & Machine Learning-based project built to forecast grocery item sales for Blinkit, enabling smarter inventory decisions, better marketing, and reduced wastage.
 <br>
 <br>
 Project Overview
@@ -95,6 +95,7 @@ http://127.0.0.1:5000/
 GitHub: Blinkit_Sales_Analysis
 <br>
 <br>
+
 
 
 
